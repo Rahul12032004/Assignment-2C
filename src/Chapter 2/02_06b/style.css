@@ -37,4 +37,6 @@ img {
   top: 0;
 }
 
-.content img {}
+.content img {
+  clip-path: path("M10,50 Q20,0 50,50 T90,50 Q90,90 50,90 T10,50 Z");
+}
