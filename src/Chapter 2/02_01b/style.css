@@ -3,6 +3,7 @@ body {
 }
 
 img {
+  border-radius: 1.5rem;
   display: block;
   height: auto;
   width: 100%;
