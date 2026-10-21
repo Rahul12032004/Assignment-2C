@@ -4,7 +4,8 @@ body {
 
 img {
   display: block;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   width: 100%;
 }
 
@@ -14,4 +15,10 @@ img {
   margin: 2rem;
 }
 
-.content {}
+.content {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1200px;
+  width: 100%;
+}
