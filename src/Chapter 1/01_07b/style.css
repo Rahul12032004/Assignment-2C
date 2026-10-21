@@ -14,8 +14,16 @@ img {
   margin: 2rem;
 }
 
-.content {}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 1200px;
+  width: 100%;
+}
 
-.content img {}
-
-figure {}
+.content img {
+  flex: 1 1 calc(50% - 1rem);
+  height: 20rem;
+  object-fit: cover;
+}
