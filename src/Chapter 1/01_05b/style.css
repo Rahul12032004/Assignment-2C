@@ -11,6 +11,7 @@ img {
 .container {
   align-items: center;
   display: flex;
+  gap: 2rem;
   height: 100vh;
   justify-content: center;
 }
@@ -18,13 +19,14 @@ img {
 .card {
   border: 3px solid hotpink;
   border-radius: 1rem;
-  width: 40vw;
+  width: 30vw;
+  overflow: hidden;
 }
 
 .image {
-  height: inherit;
+  height: 20rem;
   object-fit: cover;
-  width: inherit;
+  width: 100%;
 }
 
 figcaption {
